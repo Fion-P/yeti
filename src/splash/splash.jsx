@@ -59,7 +59,14 @@ class Splash extends React.Component {
         <div className="our-values-block">
           <div className="our-values-head">
             <div className="our-values-img-shadow"></div>
-            <img src="Mask.svg" className="image-2" alt="" />
+            {/* <img src="Mask.svg" className="image-2" alt="" /> */}
+            <img
+              src="img/lemur-676967-unsplash.png"
+              //   srcset="img/lemur-676967-unsplash@2x.png 2x,
+              //  img/lemur-676967-unsplash@3x.png 3x"
+              className="image-2"
+              alt=""
+            />
             <div className="our-values-title"> Our Values </div>
           </div>
 
