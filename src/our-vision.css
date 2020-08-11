@@ -1,0 +1,57 @@
+.our-vision-block {
+  margin-top: 69.5px;
+  display: flex;
+}
+.Army-had-half-a-day-Copy {
+  padding-top: 116.5px;
+  width: 460px;
+  height: 208px;
+  font-family: Poppins;
+  font-size: 35px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.49;
+  letter-spacing: normal;
+  color: #1e252c;
+}
+
+.Army-had-half-a-day {
+  padding-top: 56px;
+  padding-left: 200px;
+  width: 665px;
+  height: 192px;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  color: #4a4a4a;
+}
+
+.our-vision-right {
+  /* padding-left: 206.5px; */
+}
+
+.our-vision-container {
+  transform: rotate(90deg);
+  transform-origin: top left;
+}
+
+.Our-vision {
+  height: 150px;
+  width: 574px;
+  transform: translate(0px, -306.5px);
+  /* transform: rotate(90deg); */
+  -webkit-text-stroke: 1px #1e252c;
+  font-family: Eczar;
+  font-size: 120px;
+  /* font-weight: 600; */
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: #ffffff;
+}
