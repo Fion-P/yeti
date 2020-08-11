@@ -1,6 +1,7 @@
 import React from 'react';
 import './spash.css';
 import './our-vision.css';
+import './our-values.css';
 
 class Splash extends React.Component {
   render() {
@@ -49,15 +50,42 @@ class Splash extends React.Component {
           </div>
 
           <div className="our-vision-right">
-            <div className='our-vision-container'>
-              <div className="Our-vision">
-                Our Vision
-              </div>
+            <div className="our-vision-container">
+              <div className="Our-vision">Our Vision</div>
+            </div>
+          </div>
+        </div>
+
+        <div className="our-values-block">
+          <div className="our-values-head">
+            <div className="our-values-img-shadow"></div>
+            <img src="Mask.svg" className="image-2" alt="" />
+            <div className="our-values-title"> Our Values </div>
+          </div>
+
+          <div className="our-values-content-head-container">
+            <div className="our-values-content-head">
+              Army had half a day. Bad news. Andy Griffith turned us down. He
+              didn't like his trailer.
             </div>
           </div>
 
-        </div>
+          <div className="our-values-content">
+            <div className="our-values-content-left">
+              Army had half a day. Bad news. Andy Griffith turned us down. He
+              didn't like his trailer. That's why you always leave a note! Army
+              had half a day. Bad news. Andy Griffith turned us down. He didn't
+              like his trailer. That's why you always leave a note! No… but I'd
+              like to be asked! Oh, you're gonna be in a coma, all right.
+            </div>
 
+            <div className="our-values-content-right">
+              Army had half a day. Bad news. Andy Griffith turned us down. He
+              didn't like his trailer. That's why you always leave a note! Army
+              had half a day. Bad news. Andy Griffith turned us down.
+            </div>
+          </div>
+        </div>
       </div>
     );
   }
