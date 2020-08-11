@@ -1,0 +1,46 @@
+.nav-bar {
+  width: 1200px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: pink;
+}
+
+.nav-bar-right {
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar-left {
+  display: flex;
+  align-items: center;
+}
+
+/* Zeplin CSS */
+
+.logo-black {
+  width: 60px;
+  height: 48px;
+  object-fit: contain;
+}
+
+.menu {
+  width: 46px;
+  height: 19px;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.58;
+  letter-spacing: 3px;
+  color: #1e252c;
+  padding-right: 20px;
+}
+
+.hamburger-menu {
+  width: 25px;
+  height: 10px;
+  object-fit: contain;
+}
