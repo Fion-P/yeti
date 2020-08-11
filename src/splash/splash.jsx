@@ -1,5 +1,5 @@
 import React from 'react';
-import './spash.css';
+import './about.css';
 import './our-vision.css';
 import './our-values.css';
 

@@ -1,5 +1,4 @@
 import React from 'react';
-import {Switch, Route} from 'react-router-dom';
 import './reset.css';
 import './App.css';
 import NavBar from './nav-bar/nav-bar';
