@@ -61,6 +61,7 @@
 .our-values-content {
     padding-top: 92px;
     display: flex;
+    justify-content: center;
 }
 
 .our-values-content-left {
