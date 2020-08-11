@@ -61,3 +61,51 @@
 
 /* Mobile CSS */
 
+
+@media screen and (max-width: 450px) { 
+
+  .our-vision-block {
+    /* margin-top: 69.5px; */
+    /* display: flex; */
+    margin-top: 49px;
+    position: relative;
+  }
+
+  .our-vision-right {
+    position: absolute;
+  }
+
+  .our-vision-container {
+    transform: rotate(0); 
+  }
+
+  .Our-vision {
+    transform: translate(0,0);
+    width: 354px;
+    height: 129px;
+    -webkit-text-stroke: 0.8px #1e252c;
+    font-family: Eczar;
+    font-size: 73px;
+  }
+
+  .Army-had-half-a-day-Copy {
+    padding-top: 114px;
+    width: 354px;
+    height: 140px;
+    font-size: 24px;
+    line-height: 1.46;
+    letter-spacing: 0.46px;
+    color: var(--dark);
+  }
+
+  .Army-had-half-a-day {
+    width: 354px;
+    height: 308px;
+    font-size: 18px;
+    line-height: 1.56;
+    letter-spacing: normal;
+    color: #4a4a4a;
+    padding-left: 0;
+    padding-top: 24px;
+  }
+}
