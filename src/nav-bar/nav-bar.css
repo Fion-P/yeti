@@ -45,3 +45,19 @@
   object-fit: contain;
   cursor: pointer;
 }
+
+/* --------------------------------------------------------------------------------------------- */
+
+/* Mobile CSS */
+
+@media screen and (max-width: 450px) {
+  .logo-black {
+    display: none;
+  }
+
+  .nav-bar {
+    width: 354px;
+    position: absolute;
+  }
+
+}

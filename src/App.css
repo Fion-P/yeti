@@ -3,3 +3,11 @@
   margin: auto;
   width: 1200px;
 }
+
+@media screen and (max-width: 450px) {
+  .App {
+    padding-top: 18px;
+    width: 100vw;
+    margin: auto;
+  }
+}
