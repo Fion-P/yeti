@@ -95,6 +95,7 @@
 @media screen and (max-width: 450px) { 
 
   .splash-page {
+    overflow-x: hidden;
     margin-top: 0px;
     padding: 0px 30px;
     /* background-color: rgb(199, 212, 206); */
@@ -119,14 +120,19 @@
   }
 
   .image {
-    width: 322px;
+    /* width: 322px;
+    height: 270px; */
+    max-width: 322px;
+    width: 100vw;
     height: 270px;
     object-fit: fill;
     top: 175px
   }
 
   .about-img-shadow {
-    width: 322px;
+    /* width: 322px; */
+    max-width: 322px;
+    width: 100vw;
     height: 270px;
     margin: 36px 0 0 32px;
   }
@@ -143,8 +149,11 @@
   }
 
   .Andy-Griffith-turned {
-    width: 354px;
-    height: 70px;
+    /* width: 354px; */
+    width: 100%;
+    max-width: 354px;
+    min-height: 70px;
+    height: fit-content;
     font-family: Poppins;
     font-size: 24px;
     letter-spacing: 0.46px;
@@ -153,8 +162,12 @@
 
   .Army-had-half-a-day-about {
     padding-top: 24px;
-    width: 354px;
-    height: 140px;
+    /* width: 354px;
+    height: 140px; */
+    max-width: 354px;
+    min-height: 140px;
+    width: 100%;
+    height: fit-content;
     font-size: 18px;
     line-height: 1.56;
   }

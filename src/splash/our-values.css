@@ -130,8 +130,12 @@
   }
 
   .our-values-content-head {
-    width: 354px;
-    height: 114px;
+    /* width: 354px;
+    height: 114px; */
+    max-width: 354px;
+    min-height: 114px;
+    width: 100%;
+    height: fit-content;
     font-size: 22px;
     line-height: 1.73;
     color: var(--dark);
@@ -143,8 +147,12 @@
   }
 
   .our-values-content-left {
-    width: 354px;
-    height: 280px;
+    /* width: 354px;
+    height: 280px; */
+    max-width: 354px;
+    min-height: 280px;
+    width: 100%;
+    height: fit-content;
     font-size: 16px;
     line-height: 1.75;
     padding-right: 0;
@@ -152,8 +160,12 @@
 
   .our-values-content-right {
     padding-top: 27px;
-    width: 354px;
-    height: 168px;
+    /* width: 354px;
+    height: 168px; */
+    max-width: 354px;
+    min-height: 168px;
+    width: 100%;
+    height: fit-content;
     font-size: 16px;
     line-height: 1.75;
   }
